@@ -27,11 +27,12 @@ python infer.py
 • 检测类别：person（行人）、car（车辆）
 
 ## 项目结构
+```text
 yolov11-person-car-detection/
-├── README.md         # 项目说明文档
-├── requirements.txt  # 依赖库清单
-├── train-video.py    # 模型训练脚本
-├── test-video.py     # 视频推理脚本
-├── data.yaml         # 数据集配置文件
-└── resulets/         # 推理结果文件夹
-    └── predict-6/    # 模型输出结果
+├── README.md               # 项目说明与复现指南
+├── requirements.txt        # Python依赖库清单
+├── train-video.py          # YOLOv11模型训练脚本
+├── test-video.py           # 视频目标检测推理脚本
+├── data.yaml               # 数据集路径与类别配置文件
+└── results/                # 模型推理结果存储目录
+    └── predict-6/          # 模型输出的检测结果
